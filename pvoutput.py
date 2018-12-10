@@ -18,8 +18,8 @@ def update_pvoutput():
 
 
         energy_generated = int((energy_data[0] - energy_data[3]) * 1000)
-        energy_exported  = int((energy_data[1] - energy_data[4]) * 1000)
-        energy_imported  = int((energy_data[2] - energy_data[5]) * 1000)
+        energy_imported  = int((energy_data[1] - energy_data[4]) * 1000)
+        energy_exported  = int((energy_data[2] - energy_data[5]) * 1000)
        
        # energy_consumed = int(energy_data[3] * 1000)
         gY = energy_data[0]
